@@ -20,7 +20,7 @@ const upload = multer({ storage });
 
 // MongoDB connection parameters
 const mongo_URI =
-"mongodb://localhost:27017";
+"mongodb+srv://urvashishukla1210:obcEiQx6oW2bYyBj@cluster0.cmsojbe.mongodb.net/";
 const dbName = "user";
 
 app.use(express.json());
